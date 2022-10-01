@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-
+import { useState, useEffect } from "react";
 import st from "./App.module.css";
 import Searchbar from "./components/Searchbar";
 import Loader from "./components/Loader";
@@ -7,7 +6,6 @@ import Modal from "./components/Modal";
 import ImageGallery from "./components/ImageGallery";
 import Button from "./components/Button";
 import fetchDataApi from "./services/fetchDataApi";
-
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
